@@ -9,6 +9,23 @@
       {
         "select-name": "off"
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "translate",
+          "rotate"
+        ]
+      }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 113",
+    "not firefox <= 114",
+    "not ios_saf <= 16.5",
+    "not safari <= 16.5"
+  ]
 }
